@@ -7,6 +7,7 @@ import Login from './components/pages/Login';
 import Loan from './components/pages/Loan';
 import ContactUs from './components/pages/ContactUs';
 import Register from './components/pages/Register';
+import Transaction from './components/pages/Transaction';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/login' component={Login} />
         <Route path='/contact-us' component={ContactUs} />
         <Route path='/register' component={Register} />
+        <Route path='/transaction' component={Transaction} />
       </Switch>
     </Router>
   );

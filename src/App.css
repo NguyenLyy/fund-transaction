@@ -10,7 +10,6 @@
   width: 100%;
   height: 120vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 100px;
  /* background-image: linear-gradient(to left, #266833 , #191A19);*/
@@ -22,9 +21,8 @@
  background-size: cover;
 }
 .zone1 {
-  width: 800px;
+  width: 420px;
   height: 500px;
-  /*border: 2px solid #000;*/
 }
 .zone1 h1 {
   color: #fff;
@@ -70,4 +68,57 @@
   width: 100%;
   height: 500px;
   margin-left: 100px;
+}
+
+
+
+/* Transaction zone */
+
+.transaction-header-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-header-container .base1 {
+  /*border: 2px solid #000;*/
+  width: 100%;
+  height: 900px;
+  background-image: url(./assets/pexels-photo-3064284.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.transaction-header-container .base2 {
+  width: 850px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-ui {
+  border: 2px solid rgb(0, 0, 0);
+  width: 400px;
+  height: 700px;
+  border-radius: 50px;
+  padding: 20px;
+}
+.fund-balance {
+  border: 2px solid rgb(13, 202, 23);
+  width: 100%;
+  height: 180px;
+  border-radius: 20px;
+}
+.quick-action {
+  border: 2px solid rgb(140, 143, 140);
+  width: 100%;
+  height: 130px;
+  border-radius: 20px;
+  margin-top: 3rem;
+}
+.transaction-history {
+  border: 2px solid rgb(140, 143, 140);
+  width: 100%;
+  height: 270px;
+  border-radius: 20px;
+  margin-top: 1.5rem;
 }

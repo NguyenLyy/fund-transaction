@@ -1,19 +1,22 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 const Home = () => {
+
     return (
         <>
-           <div className="header-container">
-               <div className="zone1">
+        <div className="header-container">
+          <div className="zone1">
+    
                    <h1>Transaction Always Reliable With <span>CLink</span></h1>
+                  
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam dolore maiores molestiae, obcaecati.</p>
                    <div className="btn-zone">
-                       <a href="" className="btn1">Register</a>
-                       <a href="" className="btn2">Learn More</a>
+                   <Link to="/Transaction" className="btn1"> Get Started </Link>
+                    
                    </div>
+               </div> 
                </div>
-               <div className="zone2"></div>
-           </div>
         </>
     )
 }
