@@ -84,7 +84,11 @@
   /*border: 2px solid #000;*/
   width: 100%;
   height: 900px;
-  background-image: url(./assets/pexels-photo-3064284.jpeg);
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url("https://images.pexels.com/photos/6995145/pexels-photo-6995145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
   background-size: cover;
 }
@@ -116,7 +120,7 @@
   width: 100%;
   height: auto;
   border-radius: 20px;
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding: 20px;
 }
 .transaction-history {
@@ -204,7 +208,7 @@
 
 
 .loan-img {
-  background: rgba(0, 128, 0, 0.219);
+  background: rgba(0, 128, 0, 0.137);
   border-radius: 10px;
   padding: 3px;
 }
@@ -213,12 +217,12 @@
   color: #999;
 }
 .airtime-img {
-  background: rgba(0, 128, 0, 0.219);
+  background: rgba(0, 128, 0, 0.137);
   border-radius: 10px;
   padding: 3px;
 }
 .pay-bills-img {
-  background: rgba(0, 128, 0, 0.219);
+  background: rgba(0, 128, 0, 0.137);
   border-radius: 10px;
   padding: 3px;
 }
@@ -240,3 +244,20 @@
   color: rgb(75, 75, 75);
   margin-top: 0.5rem;
 }
+
+.dot-container {
+  width: 70px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dot1 {
+  background: #3ea176;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+

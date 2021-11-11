@@ -17,6 +17,10 @@ const Transaction = () => {
                             <Link className="send-money"><img src="https://img.icons8.com/material-outlined/20/ffffff/filled-sent.png" alt=""/>&nbsp;Send money</Link>
                             </div>
                         </div>
+                        <div className="dot-container">
+                            <div className="dot1"></div>
+                           
+                        </div>
                         <div className="quick-action">
                             <p className="qa">Quick actions</p>
                             <div className="actions-container">
