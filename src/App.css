@@ -94,13 +94,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgba(214, 214, 214, 0.247);
 }
 .phone-ui {
   width: 400px;
-  height: 700px;
+  height: 750px;
   border-radius: 50px;
   padding: 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background: #fff;
 }
 .fund-balance {
   background: #3ea176;
@@ -110,18 +112,20 @@
   padding: 20px;
 }
 .quick-action {
-  border: 2px solid rgb(140, 143, 140);
+  box-shadow: rgba(48, 48, 48, 0.2) 0px 2px 8px 0px;
   width: 100%;
-  height: 130px;
+  height: auto;
   border-radius: 20px;
   margin-top: 3rem;
+  padding: 20px;
 }
 .transaction-history {
-  border: 2px solid rgb(140, 143, 140);
+  box-shadow: rgba(48, 48, 48, 0.2) 0px 2px 8px 0px;
   width: 100%;
   height: 270px;
   border-radius: 20px;
   margin-top: 1.5rem;
+  padding: 20px;
 }
 .fund-balance .ab {
   color: rgb(236, 235, 235);
@@ -149,6 +153,9 @@
   border-radius: 50px;
   text-decoration: none;
   font-size: 14.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .fund-balance .send-money {
   color: rgb(255, 255, 255);
@@ -157,9 +164,79 @@
   border-radius: 50px;
   text-decoration: none;
   font-size: 14.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .fund-balance .buttons {
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
+}
+
+
+/* quick action */
+.quick-action .qa {
+  color: #999;
+}
+.quick-action .actions-container {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.quick-action .actions-container .loans {
+  width: 50px;
+  height: auto;
+  text-align: center;
+}
+.quick-action .actions-container .airtime{
+  width: 50px;
+  height: 37px;
+  text-align: center;
+}
+.quick-action .actions-container .pay-bills {
+  width: 50px;
+  height: 37px;
+  text-align: center;
+}
+
+
+.loan-img {
+  background: rgba(0, 128, 0, 0.219);
+  border-radius: 10px;
+  padding: 3px;
+}
+.loan-text {
+  font-size: 13px;
+  color: #999;
+}
+.airtime-img {
+  background: rgba(0, 128, 0, 0.219);
+  border-radius: 10px;
+  padding: 3px;
+}
+.pay-bills-img {
+  background: rgba(0, 128, 0, 0.219);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.transaction-history .ta {
+  color: #999;
+}
+.no-transaction {
+  text-align: center;
+  margin-top: 3rem;
+}
+.ntheader {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.no-transaction-text {
+  font-size: 13px;
+  color: rgb(75, 75, 75);
+  margin-top: 0.5rem;
 }
